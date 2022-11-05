@@ -10,7 +10,7 @@ const Banner = () => (
       title="Contribute to your community and uplift your people"
       subtitle="Start your First Donation now."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="/">
           <a>
             <Button>Get Started</Button>
           </a>
