@@ -4,7 +4,8 @@
     "esbenp.prettier-vscode",
     "mikestead.dotenv",
     "csstools.postcss",
-    "bradlc.vscode-tailwindcss",
-    "Orta.vscode-jest"
+    "blanu.vscode-styled-jsx",
+    "msjsdiag.debugger-for-chrome",
+    "bradlc.vscode-tailwindcss"
   ]
 }
