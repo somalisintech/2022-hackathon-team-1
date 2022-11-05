@@ -1,5 +1,12 @@
+import { useEffect } from 'react';
+
 import Link from 'next/link';
 
+import {
+  getAllCampaigns,
+  getSingleCampaign,
+  postCampaign,
+} from '../../api/campaignAPI';
 import { Background } from '../../background/Background';
 import { Button } from '../../button/Button';
 import { Section } from '../../layout/Section';
@@ -8,6 +15,18 @@ import { Logo } from '../../templates/Logo';
 import InputFeild from './Input';
 
 const CampaignDetails = () => {
+  useEffect(() => {
+    getAllCampaigns().then((response) => {
+      console.log('getAllCampaigns:', response.data);
+    });
+    getSingleCampaign(1).then((response) => {
+      console.log('GetsingleCmapaign:', response.data);
+    });
+    postCampaign().then((response) => {
+      console.log('PostCmapaign:', response.data);
+    });
+  }, []);
+
   return (
     <Background color="bg-yellow-100">
       <Section yPadding="py-6">
