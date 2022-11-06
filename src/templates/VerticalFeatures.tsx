@@ -14,14 +14,14 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Build A Masjid"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="“Whoever builds a mosque, desiring thereby Allah’s pleasure, Allah builds for him the like of it in paradise.” [Bukhari]"
       image="/assets/images/feature2.svg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
       title="School For Girls"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="We focus on building schools in Somalia, because education is the key to reducing poverty and inequality.  With schooling and education, children learn to read and become aware of their rights and opportunities, to take care of themselves and create a life based on self-respect, respect for their fellow human beings and surroundings, for the benefit of the individual, Somalia and the rest of the world."
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"
     />

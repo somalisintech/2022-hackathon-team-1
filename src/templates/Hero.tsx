@@ -37,7 +37,7 @@ const Hero = () => (
               {
                 <Link href="/campaign">
                   <a>
-                    <button className="py-1 px-4 bg-orange-500 text-white text-base font-semibold rounded-lg shadow-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+                    <button className=" px-4 bg-orange-500 text-white text-base font-semibold rounded-lg shadow-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
                       Start a campaign now
                     </button>
                   </a>
@@ -46,7 +46,7 @@ const Hero = () => (
               {
                 <Link href="/">
                   <a>
-                    <button className="py-1 px-4 bg-white-500 text-orange-500 border-2 border-orange-500 text-base font-semibold rounded-lg shadow-md hover:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+                    <button className=" px-4 bg-white-500 text-orange-500 border-2 border-orange-500 text-base font-semibold rounded-lg shadow-md hover:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
                       Browse campaigns
                     </button>
                   </a>
