@@ -1,5 +1,5 @@
 export const AppConfig = {
-  site_name: 'Ururi',
+  site_name: '',
   title: 'Ururi',
   description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
   locale: 'en',

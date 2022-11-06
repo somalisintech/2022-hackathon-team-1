@@ -2,8 +2,8 @@ import { ReactNode } from 'react';
 
 type IHeroOneButtonProps = {
   title: ReactNode;
-  description: string;
-  button: ReactNode;
+  description?: string;
+  button?: ReactNode;
 };
 
 const HeroOneButton = (props: IHeroOneButtonProps) => (
